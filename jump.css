@@ -1,0 +1,96 @@
+/* Body */
+
+body{
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    margin: 0;
+}
+
+/* Staff Background */
+
+.staff-page{
+    background-image: url("pio.webp");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Visitor Background */
+
+.visitor-page{
+    background-image: url("pio.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Main Card */
+
+.container{
+    text-align: center;
+
+    background: rgba(255,255,255,0.90);
+
+    padding: 40px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+/* Logo */
+
+.logo{
+    width:120px;
+    margin-bottom:20px;
+}
+
+/* Textboxes and Dropdown */
+
+input,
+select{
+    width:220px;
+    padding:10px;
+    font-size:16px;
+
+    border:1px solid gray;
+    border-radius:5px;
+}
+
+/* Labels */
+
+label{
+    font-weight:bold;
+}
+
+/* Buttons */
+
+button{
+    width:220px;
+    padding:15px;
+    margin:10px;
+
+    font-size:18px;
+
+    border:none;
+    border-radius:8px;
+
+    background:#0056b3;
+    color:white;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+/* Hover Effect */
+
+button:hover{
+    background:#007BFF;
+    transform:scale(1.05);
+}
